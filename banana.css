@@ -1,0 +1,97 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 45px;
+}
+
+.im {
+    display: flex; /* Use flexbox to align images in a row */
+    align-items: center; /* Center images vertically */
+}
+
+.im img {
+    margin-left: -5px; /* Optional: Add some space between the images */
+    background-color: #0000006b;
+    border-radius:5px ;
+}
+
+    
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    color: #474747;
+   
+    
+}
+ .p1{
+
+    margin: 20px 45px;
+    font-weight: bold;
+    font-size: 3em;
+    color: black;
+    
+    
+}
+ .p2{
+    
+    margin: 20px 45px;
+    font-weight: bold;
+    font-size: 3em;
+    color: black;
+    
+}
+
+.img{
+    width:  500px;
+    display: flex;
+    align-items: center;
+    margin: -223px 651px;
+}
+.the{
+    margin: 0px 45px;
+    color: #00000099;
+}
+.btn{
+    margin: 20px 45px  0px 29px;
+    border-radius: 13px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.aling{
+    margin: 20px 0px ;
+    color: blue;
+    font-weight: 1000;
+    font-size: 22px;
+}
+.green-tik{
+    margin: 20px 45px;
+    color: #00000099;
+
+}
+.pic{
+    margin: -7px 5px;
+  
+}
+@media screen and (max-width:576px) {
+    .nav{
+        flex-direction: column
+    }
+    
+}
